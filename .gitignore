@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+
+# VS Code Server
+.vscode-server/
+
+# Environment variables
+.env
+
+# Build files
+dist/
+build/
+
+# Logs
+*.logø
+

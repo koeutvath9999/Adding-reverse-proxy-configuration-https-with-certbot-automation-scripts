@@ -1,0 +1,86 @@
+// Disposable cache for Copilot user responses, safe to delete. Managed automatically.
+// User settings belong in settings.json.
+{
+  "copilotUserCache": {
+    "v1:b56811293a9235857dd4fd6bccdd69382fdc198844c23dead5ad4ec3a21bd9ec": {
+      "schemaVersion": 1,
+      "generation": "6afc2cc5-8f4e-4390-b2e1-35226967747f",
+      "retrievedAt": "2026-10-30T19:25:58.456Z",
+      "response": {
+        "login": "koeutvath9999",
+        "access_type_sku": "free_limited_copilot",
+        "analytics_tracking_id": "e17222eeee0cc1dd6c48db6d6aa4ae55",
+        "assigned_date": "2026-01-20T09:55:22+07:00",
+        "can_signup_for_limited": false,
+        "chat_enabled": true,
+        "copilot_plan": "individual",
+        "copilotignore_enabled": false,
+        "endpoints": {
+          "api": "https://api.individual.githubcopilot.com",
+          "origin-tracker": "https://origin-tracker.individual.githubcopilot.com",
+          "proxy": "https://proxy.individual.githubcopilot.com",
+          "telemetry": "https://telemetry.individual.githubcopilot.com",
+          "exp": "https://exp.individual.githubcopilot.com"
+        },
+        "organization_login_list": [],
+        "organization_list": [],
+        "enterprise_list": [],
+        "is_mcp_enabled": true,
+        "quota_reset_date": "2026-11-01",
+        "quota_snapshots": {
+          "chat": {
+            "entitlement": 200,
+            "overage_count": 0,
+            "overage_permitted": false,
+            "percent_remaining": 99.9,
+            "quota_id": "chat",
+            "quota_remaining": 199.9,
+            "remaining": 199,
+            "unlimited": false,
+            "timestamp_utc": "2026-10-30T12:25:43.604-07:00",
+            "has_quota": true,
+            "quota_reset_at": 0,
+            "token_based_billing": true
+          },
+          "completions": {
+            "entitlement": 2000,
+            "overage_count": 0,
+            "overage_permitted": false,
+            "percent_remaining": 100,
+            "quota_id": "completions",
+            "quota_remaining": 2000,
+            "remaining": 2000,
+            "unlimited": false,
+            "timestamp_utc": "2026-10-30T12:25:43.604-07:00",
+            "has_quota": true,
+            "quota_reset_at": 0,
+            "token_based_billing": true
+          },
+          "premium_interactions": {
+            "entitlement": 0,
+            "overage_count": 0,
+            "overage_permitted": false,
+            "percent_remaining": 0,
+            "quota_id": "premium_interactions",
+            "quota_remaining": 0,
+            "remaining": 0,
+            "unlimited": false,
+            "timestamp_utc": "2026-10-30T12:25:43.604-07:00",
+            "has_quota": false,
+            "quota_reset_at": 0,
+            "token_based_billing": true
+          }
+        },
+        "restricted_telemetry": true,
+        "enterprise_usage_telemetry": false,
+        "is_staff": false,
+        "te": true,
+        "token_based_billing": true,
+        "can_upgrade_plan": true,
+        "quota_reset_date_utc": "2026-11-01T00:00:00.000Z",
+        "cloud_session_storage_enabled": false,
+        "cli_remote_control_enabled": true
+      }
+    }
+  }
+}
